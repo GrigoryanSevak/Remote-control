@@ -48,9 +48,9 @@ def connect_wifi(ssid, password):
     iface.connect(tmp_profile)
 
 try:
-    connect_wifi('YOUR_PHONE_INTERNET_NAME', '1234567890')
+    connect_wifi('YOUR_PHONE_INTERNET_NAME', 'YOUR_PHONE_INTERNET_PASSWORD')
 except:
-    connect_wifi('YOUR_PHONE_INTERNET_PASSWORD', '1234567890')
+    connect_wifi('YOUR_PHONE_INTERNET_NAME', 'YOUR_PHONE_INTERNET_PASSWORD')
 
 time.sleep(5)
 
